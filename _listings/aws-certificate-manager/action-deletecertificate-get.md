@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Certificate Manager API
+  title: AWS Certificate Manager API Delete Certificate
   version: 1.0.0
+  description: Deletes an ACM Certificate and its associated private key.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteCertificate&k=1:
+  /?Action=DeleteCertificate:
     get:
       summary: Delete Certificate
       description: Deletes an ACM Certificate and its associated private key
