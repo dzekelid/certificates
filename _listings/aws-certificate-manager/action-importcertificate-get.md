@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Certificate Manager API
+  title: AWS Certificate Manager API Import Certificate
   version: 1.0.0
+  description: Imports an SSL/TLS certificate into AWS Certificate Manager (ACM) to
+    use with.
 schemes:
 - http
 produces:
@@ -10,7 +12,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ImportCertificate&k=1:
+  /?Action=ImportCertificate:
     get:
       summary: Import Certificate
       description: Imports an SSL/TLS certificate into AWS Certificate Manager (ACM)
