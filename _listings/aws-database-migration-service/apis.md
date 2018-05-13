@@ -25,15 +25,15 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-database-migration-service/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS Database Migration Service API Describe Certificates
-  description: Provides a description of the certificate.
+- name: AWS Database Migration Service API Import Certificate
+  description: Uploads the specified certificate.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-icon-dms.png
   humanURL: https://aws.amazon.com/dms/
   baseURL: http:://{host}//
   tags: Certificates
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-database-migration-service/action-describecertificates-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-database-migration-service/action-importcertificate-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/dms/latest/APIReference/Welcome.html
