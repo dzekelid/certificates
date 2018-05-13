@@ -18,17 +18,15 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/azure-logic-apps/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Azure Logic Apps API Certificates Get
-  description: Gets an integration account certificate.
+- name: Azure Logic Apps API Certificates Create Or Update
+  description: Creates or updates an integration account certificate.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-logic-apps-01-connectors.png
   humanURL: https://azure.microsoft.com/en-us/services/logic-apps/
   baseURL: http:://management.azure.com//
   tags: Certificates
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/azure-logic-apps/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-logic-integrationaccounts-integrationaccountname-certificates-certificatename-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/azure-logic-apps/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-logic-integrationaccounts-integrationaccountname-certificates-certificatename-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/azure-logic-apps/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-logic-integrationaccounts-integrationaccountname-certificates-certificatename-put.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/logic-apps/
