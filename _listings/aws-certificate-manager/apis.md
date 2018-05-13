@@ -35,17 +35,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/certificates/master/_listings/aws-certificate-manager/action-requestcertificate-get.md
-- name: AWS Certificate Manager API Get Certificate
-  description: |-
-    Retrieves an ACM Certificate and certificate chain for the certificate specified by an
-          ARN.
+- name: AWS Certificate Manager API Import Certificate
+  description: Imports an SSL/TLS certificate into AWS Certificate Manager (ACM) to
+    use with.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_ACM_certificate-manager.png
   humanURL: https://aws.amazon.com/certificate-manager/
   baseURL: http:://{host}//
   tags: Certificates
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-certificate-manager/action-getcertificate-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-certificate-manager/action-importcertificate-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/acm/index.html
