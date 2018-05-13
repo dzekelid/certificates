@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Certificate Manager API
+  title: AWS Certificate Manager API Get Certificate
   version: 1.0.0
+  description: |-
+    Retrieves an ACM Certificate and certificate chain for the certificate specified by an
+          ARN.
 schemes:
 - http
 produces:
@@ -10,7 +13,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetCertificate&k=1:
+  /?Action=GetCertificate:
     get:
       summary: Get Certificate
       description: |-
