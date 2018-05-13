@@ -23,15 +23,15 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-internet-of-things/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS Internet of Things API Create Keys And Certificate
-  description: Creates a 2048-bit RSA key pair and issues an X.
+- name: AWS Internet of Things API Delete C A Certificate
+  description: Deletes a registered CA certificate.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
   humanURL: https://aws.amazon.com/iot-platform/
   baseURL: http:://{host}//
   tags: Certificates
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-internet-of-things/action-createkeysandcertificate-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-internet-of-things/action-deletecacertificate-get.md
 x-common:
 - type: x-blog
   url: https://aws.amazon.com/iot-platform/developer-resources/#Blog
