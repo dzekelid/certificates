@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Certificate Manager API
+  title: AWS Certificate Manager API List Certificates
   version: 1.0.0
+  description: Retrieves a list of ACM Certificates and the domain name for each.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListCertificates&k=1:
+  /?Action=ListCertificates:
     get:
       summary: List Certificates
       description: Retrieves a list of ACM Certificates and the domain name for each
