@@ -32,15 +32,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-internet-of-things/action-listcertificates-get.md
-- name: AWS Internet of Things API Register Certificate
-  description: Registers a device certificate with AWS IoT.
+- name: AWS Internet of Things API Transfer Certificate
+  description: Transfers the specified certificate to the specified AWS account.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
   humanURL: https://aws.amazon.com/iot-platform/
   baseURL: http:://{host}//
   tags: Certificates
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-internet-of-things/action-registercertificate-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-internet-of-things/action-transfercertificate-get.md
 x-common:
 - type: x-blog
   url: https://aws.amazon.com/iot-platform/developer-resources/#Blog
