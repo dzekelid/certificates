@@ -23,55 +23,16 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-internet-of-things/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS Internet of Things API List Certificates
-  description: Lists the certificates registered in your AWS account.
+- name: AWS Internet of Things API List Outgoing Certificates
+  description: Lists certificates that are being transfered but not yet accepted.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
   humanURL: https://aws.amazon.com/iot-platform/
   baseURL: http:://{host}//
   tags: Certificates
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-internet-of-things/action-listcertificates-get.md
-- name: AWS Internet of Things API List Certificates By C A
-  description: List the device certificates signed by the specified CA certificate.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
-  humanURL: https://aws.amazon.com/iot-platform/
-  baseURL: http:://{host}//
-  tags: Certificates
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-internet-of-things/action-listcertificatesbyca-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-internet-of-things/action-listoutgoingcertificates-get.md
 x-common:
-- type: x-blog
-  url: https://aws.amazon.com/iot-platform/developer-resources/#Blog
-- type: x-command-line-interface
-  url: http://docs.aws.amazon.com/cli/latest/reference/iot/index.html
-- type: x-documentation
-  url: http://docs.aws.amazon.com/iot/latest/apireference/
-- type: x-documentation
-  url: http://docs.aws.amazon.com/iot/latest/developerguide/thing-shadow-rest-api.html
-- type: x-faq
-  url: https://aws.amazon.com/iot-platform/faqs/
-- type: x-getting-started
-  url: https://aws.amazon.com/iot-platform/getting-started/
-- type: x-how-it-works
-  url: https://aws.amazon.com/iot-platform/how-it-works/
-- type: x-partners
-  url: https://aws.amazon.com/iot/partner-solutions/
-- type: x-pricing
-  url: https://aws.amazon.com/iot-platform/pricing/
-- type: x-sdk
-  url: https://aws.amazon.com/iot-platform/developer-resources/#SDKs
-- type: x-slides
-  url: https://aws.amazon.com/iot-platform/developer-resources/#Slides
-- type: x-videos
-  url: https://aws.amazon.com/iot-platform/developer-resources/#Videos
-- type: x-webinars
-  url: https://aws.amazon.com/iot-platform/developer-resources/#Webinars
-- type: x-website
-  url: https://aws.amazon.com/iot-platform/
-- type: x-white-papers
-  url: https://aws.amazon.com/iot-platform/developer-resources/#Whitepapers
 - type: x-blog
   url: https://aws.amazon.com/iot-platform/developer-resources/#Blog
 - type: x-command-line-interface
