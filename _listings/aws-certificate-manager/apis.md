@@ -35,7 +35,30 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/certificates/master/_listings/aws-certificate-manager/action-requestcertificate-get.md
+- name: AWS Certificate Manager API Delete Certificate
+  description: Deletes an ACM Certificate and its associated private key.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_ACM_certificate-manager.png
+  humanURL: https://aws.amazon.com/certificate-manager/
+  baseURL: http:://{host}//
+  tags: Certificates
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-certificate-manager/action-deletecertificate-get.md
 x-common:
+- type: x-command-line-interface
+  url: http://docs.aws.amazon.com/cli/latest/reference/acm/index.html
+- type: x-documentation
+  url: http://docs.aws.amazon.com/acm/latest/APIReference/Welcome.html
+- type: x-faq
+  url: https://aws.amazon.com/certificate-manager/faqs/
+- type: x-forum
+  url: https://forums.aws.amazon.com/forum.jspa?forumID=206
+- type: x-getting-started
+  url: https://aws.amazon.com/certificate-manager/getting-started/
+- type: x-pricing
+  url: https://aws.amazon.com/certificate-manager/pricing/
+- type: x-website
+  url: https://aws.amazon.com/certificate-manager/
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/acm/index.html
 - type: x-documentation
