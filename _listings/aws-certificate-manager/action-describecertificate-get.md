@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Certificate Manager API
+  title: AWS Certificate Manager API Describe Certificate
   version: 1.0.0
+  description: Returns a list of the fields contained in the specified ACM Certificate.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeCertificate&k=1:
+  /?Action=DescribeCertificate:
     get:
       summary: Describe Certificate
       description: Returns a list of the fields contained in the specified ACM Certificate
