@@ -24,15 +24,15 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-api-gateway/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS API Gateway API Clientcertificate Generate
-  description: Generates a new ClientCertificate resource.
+- name: AWS API Gateway API Clientcertificate Update
+  description: Changes information about the ClientCertificate resource.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-api-gateway-icon.png
   humanURL: https://aws.amazon.com/api-gateway/
   baseURL: http:://{host}//
   tags: Certificates
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-api-gateway/clientcertificates-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-api-gateway/clientcertificates-clientcertificate-id-patch.md
 x-common:
 - type: x-documentation
   url: https://docs.aws.amazon.com/apigateway/api-reference/
