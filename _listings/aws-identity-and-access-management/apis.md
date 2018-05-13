@@ -21,17 +21,17 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-identity-and-access-management/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS Identity and Access Management API List Signing Certificates
+- name: AWS Identity and Access Management API Update Server Certificate
   description: |-
-    Returns information about the signing certificates associated with the specified IAM
-          user.
+    Updates the name and/or the path of the specified server certificate stored in
+          IAM.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
   humanURL: https://aws.amazon.com/iam/
   baseURL: http:://{host}//
   tags: Certificates
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-identity-and-access-management/action-listsigningcertificates-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-identity-and-access-management/action-updateservercertificate-get.md
 x-common:
 - type: x-change-log
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=323
