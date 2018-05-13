@@ -21,15 +21,15 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-identity-and-access-management/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS Identity and Access Management API Delete Server Certificate
-  description: Deletes the specified server certificate.
+- name: AWS Identity and Access Management API Delete Signing Certificate
+  description: Deletes a signing certificate associated with the specified IAM user.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
   humanURL: https://aws.amazon.com/iam/
   baseURL: http:://{host}//
   tags: Certificates
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-identity-and-access-management/action-deleteservercertificate-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-identity-and-access-management/action-deletesigningcertificate-get.md
 x-common:
 - type: x-change-log
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=323
