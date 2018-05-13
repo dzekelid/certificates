@@ -20,15 +20,15 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-redshift/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Amazon Redshift API Delete Hsm Client Certificate
-  description: Deletes the specified HSM client certificate.
+- name: Amazon Redshift API Describe Hsm Client Certificates
+  description: Returns information about the specified HSM client certificate.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
   humanURL: https://aws.amazon.com/redshift/
   baseURL: http:://{host}//
   tags: Certificates
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-redshift/action-deletehsmclientcertificate-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-redshift/action-describehsmclientcertificates-get.md
 x-common:
 - type: x-best-practices
   url: https://aws.amazon.com/redshift/developer-resources/#best-practices
