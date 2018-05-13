@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Certificate Manager API
+  title: AWS Certificate Manager API Request Certificate
   version: 1.0.0
+  description: Requests an ACM Certificate for use with other AWS services.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RequestCertificate&k=1:
+  /?Action=RequestCertificate:
     get:
       summary: Request Certificate
       description: Requests an ACM Certificate for use with other AWS services
