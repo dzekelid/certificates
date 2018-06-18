@@ -1,6 +1,7 @@
 ---
 name: AWS Redshift
-description: Amazon Redshift is a fast, fully managed, petabyte-scalenbsp;data warehousenbsp;that
+x-slug: aws-redshift
+description: Amazon Redshift is a fast, fully managed, petabyte-scaledata warehousethat
   makes it simple and cost-effective to analyze all your data using your existing
   business intelligence tools. Start small for $0.25 per hour with no commitments
   and scale to petabytes for $1,000 per terabyte per year, less than a tenth the cost
@@ -8,27 +9,61 @@ description: Amazon Redshift is a fast, fully managed, petabyte-scalenbsp;data w
   costs to $333 per uncompressed terabyte per year.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Database
-- Data Warehouse
-- Data
-- Amazon Web Services
-created: "2018-05-13"
-modified: "2018-05-13"
+x-alexaRank: "0"
+tags: Certificates
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-redshift/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Amazon Redshift API Create Hsm Client Certificate
+  x-api-slug: amazon-redshift-api
+  description: |-
+    Creates an HSM client certificate that an Amazon Redshift cluster will use to connect to
+                the client's HSM in order to store and retrieve the keys used to encrypt the cluster
+                databases.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
+  humanURL: https://aws.amazon.com/redshift/
+  baseURL: ://///?Action=CreateHsmClientCertificate
+  tags: HSM Client Certificates
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-redshift/actioncreatehsmclientcertificate-get-openapi.md
+- name: Amazon Redshift API Delete Hsm Client Certificate
+  x-api-slug: amazon-redshift-api
+  description: Deletes the specified HSM client certificate.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
+  humanURL: https://aws.amazon.com/redshift/
+  baseURL: ://///?Action=DeleteHsmClientCertificate
+  tags: HSM Client Certificates
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-redshift/actiondeletehsmclientcertificate-get-openapi.md
 - name: Amazon Redshift API Describe Hsm Client Certificates
+  x-api-slug: amazon-redshift-api
   description: Returns information about the specified HSM client certificate.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
   humanURL: https://aws.amazon.com/redshift/
-  baseURL: http:://{host}//
+  baseURL: ://///?Action=DescribeHsmClientCertificates
+  tags: HSM Client Certificates
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-redshift/actiondescribehsmclientcertificates-get-openapi.md
+- name: Amazon Redshift API
+  x-api-slug: amazon-redshift-api
+  description: Amazon Redshift is a fast, fully managed, petabyte-scaledata warehousethat
+    makes it simple and cost-effective to analyze all your data using your existing
+    business intelligence tools. Start small for $0.25 per hour with no commitments
+    and scale to petabytes for $1,000 per terabyte per year, less than a tenth the
+    cost of traditional solutions. Customers typically see 3x compression, reducing
+    their costs to $333 per uncompressed terabyte per year.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
+  humanURL: https://aws.amazon.com/redshift/
+  baseURL: :///
   tags: Certificates
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-redshift/action-describehsmclientcertificates-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-redshift/openapi.md
 x-common:
 - type: x-best-practices
   url: https://aws.amazon.com/redshift/developer-resources/#best-practices
