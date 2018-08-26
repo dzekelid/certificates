@@ -12,47 +12,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateHsmClientCertificate:
-    get:
-      summary: Create Hsm Client Certificate
-      description: |-
-        Creates an HSM client certificate that an Amazon Redshift cluster will use to connect to
-                    the client's HSM in order to store and retrieve the keys used to encrypt the cluster
-                    databases.
-      operationId: createHsmClientCertificate
-      x-api-path-slug: actioncreatehsmclientcertificate-get
-      parameters:
-      - in: query
-        name: HsmClientCertificateIdentifier
-        description: The identifier to be assigned to the new HSM client certificate
-          that the cluster            will use to connect to the HSM to use the database
-          encryption keys
-        type: string
-      - in: query
-        name: Tags.Tag.N
-        description: A list of tag instances
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - HSM Client Certificates
-  /?Action=DeleteHsmClientCertificate:
-    get:
-      summary: Delete Hsm Client Certificate
-      description: Deletes the specified HSM client certificate.
-      operationId: deleteHsmClientCertificate
-      x-api-path-slug: actiondeletehsmclientcertificate-get
-      parameters:
-      - in: query
-        name: HsmClientCertificateIdentifier
-        description: The identifier of the HSM client certificate to be deleted
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - HSM Client Certificates
   /?Action=DescribeHsmClientCertificates:
     get:
       summary: Describe Hsm Client Certificates
