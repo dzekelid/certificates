@@ -15,11 +15,131 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Certificates
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-internet-of-things/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Internet of Things API - Create Certificate From Csr
+  x-api-slug: actioncreatecertificatefromcsr-get
+  description: Creates an X.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
+  humanURL: https://aws.amazon.com/iot-platform/
+  baseURL: :///
+  tags: Amazon Web Services, Internet of Things, Stack Network, Devices, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-internet-of-things/actioncreatecertificatefromcsr-get-openapi.md
+- name: AWS Internet of Things API - Delete Certificate
+  x-api-slug: actiondeletecertificate-get
+  description: Deletes the specified certificate.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
+  humanURL: https://aws.amazon.com/iot-platform/
+  baseURL: :///
+  tags: Amazon Web Services, Internet of Things, Stack Network, Devices, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-internet-of-things/actiondeletecertificate-get-openapi.md
+- name: AWS Internet of Things API - Describe Certificate
+  x-api-slug: actiondescribecertificate-get
+  description: Gets information about the specified certificate.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
+  humanURL: https://aws.amazon.com/iot-platform/
+  baseURL: :///
+  tags: Amazon Web Services, Internet of Things, Stack Network, Devices, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-internet-of-things/actiondescribecertificate-get-openapi.md
+- name: AWS Internet of Things API - List Certificates
+  x-api-slug: actionlistcertificates-get
+  description: Lists the certificates registered in your AWS account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
+  humanURL: https://aws.amazon.com/iot-platform/
+  baseURL: :///
+  tags: Amazon Web Services, Internet of Things, Stack Network, Devices, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-internet-of-things/actionlistcertificates-get-openapi.md
+- name: AWS Internet of Things API - List Outgoing Certificates
+  x-api-slug: actionlistoutgoingcertificates-get
+  description: Lists certificates that are being transfered but not yet accepted.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
+  humanURL: https://aws.amazon.com/iot-platform/
+  baseURL: :///
+  tags: Amazon Web Services, Internet of Things, Stack Network, Devices, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-internet-of-things/actionlistoutgoingcertificates-get-openapi.md
+- name: AWS Internet of Things API - Register Certificate
+  x-api-slug: actionregistercertificate-get
+  description: Registers a device certificate with AWS IoT.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
+  humanURL: https://aws.amazon.com/iot-platform/
+  baseURL: :///
+  tags: Amazon Web Services, Internet of Things, Stack Network, Devices, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-internet-of-things/actionregistercertificate-get-openapi.md
+- name: AWS Internet of Things API - Transfer Certificate
+  x-api-slug: actiontransfercertificate-get
+  description: Transfers the specified certificate to the specified AWS account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
+  humanURL: https://aws.amazon.com/iot-platform/
+  baseURL: :///
+  tags: Amazon Web Services, Internet of Things, Stack Network, Devices, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-internet-of-things/actiontransfercertificate-get-openapi.md
+- name: AWS Internet of Things API - Update Certificate
+  x-api-slug: actionupdatecertificate-get
+  description: Updates the status of the specified certificate.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
+  humanURL: https://aws.amazon.com/iot-platform/
+  baseURL: :///
+  tags: Amazon Web Services, Internet of Things, Stack Network, Devices, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-internet-of-things/actionupdatecertificate-get-openapi.md
+- name: AWS Internet of Things API - List C A Certificates
+  x-api-slug: actionlistcacertificates-get
+  description: Lists the CA certificates registered for your AWS account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
+  humanURL: https://aws.amazon.com/iot-platform/
+  baseURL: :///
+  tags: Amazon Web Services, Internet of Things, Stack Network, Devices, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-internet-of-things/actionlistcacertificates-get-openapi.md
+- name: AWS Internet of Things API - List Certificates By C A
+  x-api-slug: actionlistcertificatesbyca-get
+  description: List the device certificates signed by the specified CA certificate.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
+  humanURL: https://aws.amazon.com/iot-platform/
+  baseURL: :///
+  tags: Amazon Web Services, Internet of Things, Stack Network, Devices, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/certificates/master/_listings/aws-internet-of-things/actionlistcertificatesbyca-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.inspector.api.gallery.streamdata.io
